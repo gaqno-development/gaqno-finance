@@ -7,10 +7,9 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@gaqno-dev/ui/components/ui'
-import { useAuth } from '@gaqno-dev/core/contexts/AuthContext'
+import { useAuth, useTenant } from '@gaqno-dev/core/contexts'
 import { useSupabaseQuery } from '@gaqno-dev/core/hooks/useSupabaseQuery'
 import { useSupabaseClient } from '@gaqno-dev/core/hooks/useSupabaseClient'
-import { useTenant } from '@gaqno-dev/core/contexts/TenantContext'
 
 interface IPersonSelectorProps {
   value?: string | null

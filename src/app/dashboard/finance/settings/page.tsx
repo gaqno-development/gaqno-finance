@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useSupabaseClient } from '@gaqno-dev/core/hooks/useSupabaseClient'
-import { useTenant } from '@gaqno-dev/core/contexts/TenantContext'
+import { useTenant } from '@gaqno-dev/core/contexts'
 import { FeatureModule, FeaturePermissionLevel, IUserFeaturePermission } from '@gaqno-dev/core/types/user'
 import { formatRoleLabel } from '@gaqno-dev/core/lib/permissions'
 import { Card, CardHeader, CardContent, CardTitle, CardDescription } from '@gaqno-dev/ui/components/ui'
